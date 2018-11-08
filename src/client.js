@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import app from './app'
+import App from './app'
 
-const appContainer = () => {
-    <app/>
+const AppContainer = () => {
+    return <App/>
 };
 
-ReactDOM.render(app, appContainer)
+ReactDOM.render(<AppContainer />, document.getElementById('root'));
