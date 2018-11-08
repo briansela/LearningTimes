@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import App from './app'
 
-const AppContainer = () => {
+export const AppContainer = () => {
     return <App/>
 };
 
