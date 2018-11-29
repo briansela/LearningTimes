@@ -15,7 +15,7 @@ class ButtonClick extends React.Component {
         })
     }
 
-    render(props) {
+    render() {
         return (
             <div>
                 THIS IS REACT {this.state.counter}
