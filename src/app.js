@@ -1,8 +1,9 @@
 import React from 'react'
+import TimeoutTest from './components/TimeoutTest';
 
 const App = () => (
     <div>
-        THIS IS REACT
+        <TimeoutTest />
     </div>
 );
 
