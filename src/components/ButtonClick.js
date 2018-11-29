@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageCycle from './ImageCycle/index';
 
-class TimeoutTest extends React.Component {
+class ButtonClick extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,4 +28,4 @@ class TimeoutTest extends React.Component {
     }
 }
 
-export default TimeoutTest;
+export default ButtonClick;

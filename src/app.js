@@ -1,9 +1,9 @@
 import React from 'react'
-import TimeoutTest from './components/TimeoutTest';
+import ButtonClick from './components/ButtonClick';
 
 const App = () => (
     <div>
-        <TimeoutTest />
+        <ButtonClick />
     </div>
 );
 
