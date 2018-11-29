@@ -1,9 +1,14 @@
+const resolve = require('path').resolve
+
 module.exports = {
     mode: 'development',
     entry: {
-        app: [
-            './src/client.js'
-        ]
+        app: './src/client.js',
+    },
+    output: {
+        path: resolve('dist'),
+        filename: 'app.js',
+        publicPath: '../'
     },
     module: {
         rules: [
@@ -16,9 +21,11 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif)$/,
-                exclude: /(node_modules)/,
                 use: {
-                    loader: 'url-loader',
+                    loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]',
+                    }
                 }
             }
         ]
