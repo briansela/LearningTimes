@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageCycle from './ImageCycle/index';
 
 class TimeoutTest extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class TimeoutTest extends React.Component {
                 <button onClick={() => this.handleCounterIncrement()}>
                     Click Me
                 </button>
+                <ImageCycle />
             </div>
         );
     }
