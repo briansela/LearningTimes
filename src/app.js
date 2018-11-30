@@ -1,8 +1,8 @@
 import React from 'react'
-import ButtonClick from './components/ButtonClick';
+import ButtonClick from './components/ButtonClick/index';
 
 const App = () => (
-    <div>
+    <div className="test">
         <ButtonClick />
     </div>
 );

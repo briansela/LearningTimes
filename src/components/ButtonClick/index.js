@@ -1,5 +1,6 @@
 import React from 'react';
-import ImageCycle from './ImageCycle/index';
+import ImageCycle from '../ImageCycle/index';
+import styles from './ButtonClick.css';
 
 class ButtonClick extends React.Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class ButtonClick extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className={styles.test}>
                 THIS IS REACT {this.state.counter}
                 <button onClick={() => this.handleCounterIncrement()}>
                     Click Me
